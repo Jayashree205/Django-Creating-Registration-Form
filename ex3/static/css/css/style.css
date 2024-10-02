@@ -1,0 +1,58 @@
+
+/* Center the box container */
+.container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Style the form elements */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Change the button color on hover */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+/* Center the success message box */
+.success-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #e6ffe6;
+    text-align: center;
+}
+
+/* Style the heading and paragraph */
+.success-container h1 {
+    color: #4CAF50;
+    font-size: 24px;
+}
+
+.success-container p {
+    font-size: 18px;
+    color: #333;
+}
